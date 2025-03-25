@@ -1,40 +1,46 @@
+h2 {
+	color: #0057b8;
+	display: inline-block;
+  }
+
+  h3 {
+	color: #0057b8;
+  }
+
+  p {
+	font-size: 1.1em;
+	line-height: 1.6em;
+  }
+  
 #menu {
 	position: fixed; /* Stick the menu to the top of the screen */
 	width: 100%;
 	height: 45px;
-	background: White;
+	background: white;
 	border-bottom: 3px solid #0057b8;
 	font-family: 'Segoe UI', sans-serif;
   }
 
-  #menu ul {
-	list-style: none;
-	padding: 0;
-	margin: 0;
-	text-align: center;
-	line-height: 45px;
-  }
-  
   #menu li {
 	display: inline;
-	margin: 0 15px;
+	margin: 0 20px;
   }
   
   #menu a {
-	text-decoration: none;
-	color: #0057b8;
+	text-decoration: none; /* Remove underline from links */
+	color: #0057b8; 	  /* Text color */
+	font-size: 1.2em;
 	font-weight: bold;
-	transition: color 0.3s;
   }
-  
+
   #menu a:hover {
-	color: 0057b8;
+	color: #0057b8;
 	text-decoration: underline;
   }
   
   body {
 	font-family: 'Segoe UI', sans-serif;
-	background-color: #f4faff;
+	background-color: white;
 	margin: 0;
 	padding: 0;
   }
@@ -44,51 +50,23 @@
 	max-width: 900px;
 	margin: auto;
   }
-  
-  h2 {
-	color: #0057b8;
-	display: inline-block;
-	padding-bottom: 5px;
-	margin-bottom: 20px;
+	
+  iframe {
+	margin: 20px 0;                       /* Vertical spacing */
+	max-width: 100%;                      
+	border-radius: 8px;                   /* Rounded corners */
+	transition: transform 0.3s ease;      /* Smooth zoom effect */
   }
   
   img {
 	margin: 10px;
-	border: 2px solid black;
 	border-radius: 8px;
-	transition: transform 0.3s;
+	transition: transform 0.3s ease;
   }
-  
+
   img:hover {
 	transform: scale(1.05);
   }
-
-  img {
-	width: 500px;
-	height: auto;
-  }
-  
-  
-  iframe {
-	margin: 20px 0;
-	max-width: 100%;
-	border-radius: 8px;
-  }
-  
-  p {
-	font-size: 1.1em;
-	line-height: 1.6em;
-  }
-
-  .photos {
-	display: flex;
-	gap: 20px;
-	justify-content: center;
-	flex-wrap: wrap; /* כדי שירד שורה במסך קטן */
-	margin-top: 40px;
-  }
-  
-
 
   .card img {
 	width: 180px;
@@ -99,8 +77,35 @@
   .card img:hover {
 	transform: scale(2.5);
   }
-
-  .video-text h3 {
-	color: #0057b8;
+/*This is the block that wraps all the picture cards.*/
+  .photos {
+	display: flex;
+	justify-content: center;   /* Center the items horizontally */
+	flex-wrap: wrap; 		  /* Allow items to wrap to the next line */
   }
   
+  #like {
+	display: flex;
+	flex-direction: column;   
+	align-items: center;      
+	gap: 10px;                
+	margin-top: 20px;
+	padding: 20px;
+	background-color: #b7cee8;
+	border-radius: 10px;
+  }
+
+  #like-button {
+	background-color: #0057b8;
+	color: white;
+	font-size: 1em;
+	padding: 8px 16px;
+	border: none;
+	border-radius: 6px;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+  }
+  
+  #like-button:hover {
+	background-color: #004a9f;
+  }
