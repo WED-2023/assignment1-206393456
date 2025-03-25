@@ -109,3 +109,31 @@ h2 {
   #like-button:hover {
 	background-color: #004a9f;
   }
+
+
+  .qr-section {
+	background-color: white;
+	padding: 40px 20px;
+	border-radius: 12px;
+	margin-top: 40px;
+  }
+  
+  /* כותרת בצד שמאל */
+  .qr-title {
+	text-align: left;
+	color: #0057b8;
+	margin-bottom: 20px;
+  }
+  
+  /* מרכז את ה-QR */
+  .qr-center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+  }
+  
+  .qr-image {
+	width: 180px;
+	border-radius: 10px;
+	box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
