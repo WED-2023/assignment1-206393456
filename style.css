@@ -118,14 +118,12 @@ h2 {
 	margin-top: 40px;
   }
   
-  /* כותרת בצד שמאל */
   .qr-title {
 	text-align: left;
 	color: #0057b8;
 	margin-bottom: 20px;
   }
   
-  /* מרכז את ה-QR */
   .qr-center {
 	display: flex;
 	justify-content: center;
@@ -136,4 +134,88 @@ h2 {
 	width: 180px;
 	border-radius: 10px;
 	box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+
+
+
+  #spa table {
+	border-collapse: collapse;  /* Cell borders for a cleaner look */
+	width: 100%;
+	background-color: white;
+	border-radius: 10px; 		/* Rounds the corners of the table */
+	overflow: hidden;
+	font-family: 'Segoe UI', sans-serif;
+  }
+  
+  #spa th, #spa td {
+	text-align: left;
+	padding: 16px;
+  }
+	
+  
+  #spa th {
+	background-color: #0057b8;
+	color: white;
+	font-weight: bold;
+  }
+  
+  #spa tr:nth-child(even) {
+	background-color: gainsboro;
+  }
+  
+
+  
+  form label {
+	display: block;             
+	font-weight: bold;
+	margin-bottom: 5px;        
+  }
+  
+  form input[type="text"],
+  form input[type="email"],
+  form input[type="message"],
+  form textarea {
+	width: 100%;                
+	padding: 10px;              
+	margin-bottom: 15px;       
+	font-size: 1.1em;  			
+	border-radius: 6px;        
+  }
+  
+  form button {
+	background-color: #0057b8;  
+	color: white;               
+	padding: 10px 20px;         
+	border-radius: 6px;         
+	cursor: pointer;            
+  }
+  
+  .emoji-options {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 10px;
+	margin: 10px 0 20px;
+  }
+  
+  .emoji-options label {
+	cursor: pointer;
+	font-size: 1.5rem;
+	border: 2px solid #ccc;
+	border-radius: 8px;
+	padding: 8px 12px;
+	transition: 0.3s ease;
+	user-select: none;
+  }
+  
+  .emoji-options label:hover {
+	background-color: #f0f0f0;
+	transform: scale(1.1);
+  }
+
+  
+  .emoji-options input[type="radio"]:checked + label {
+	background-color: #0057b8;
+	color: white;
+	border-color: #0057b8;
+	transform: scale(1.1);
   }
