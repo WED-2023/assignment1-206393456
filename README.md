@@ -10,6 +10,11 @@ This project is a static website created as part of the _Internet Development En
 It presents the personal story, professional journey, and public contributions of Dr. Miriam Adelson - an Israeli-American physician, philanthropist, and one of the most influential women in the Jewish world.
 
 ---
+## 👨‍🎓 Author
+
+Built by: [Maor Nezer]  
+ID: 206393456 
+---
 
 ## 🌐 View the website here  
 👉 [Miriam Adelson – Personal Website](https://wed-2023.github.io/assignment1-206393456/)
