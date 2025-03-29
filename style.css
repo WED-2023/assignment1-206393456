@@ -13,7 +13,7 @@ h2 {
   }
   
 #menu {
-	position: fixed; /* Stick the menu to the top of the screen */
+	position: fixed; 				/* Stick the menu to the top of the screen */
 	width: 100%;
 	height: 45px;
 	background: white;
@@ -27,8 +27,8 @@ h2 {
   }
   
   #menu a {
-	text-decoration: none; /* Remove underline from links */
-	color: #0057b8; 	  /* Text color */
+	text-decoration: none; 			 /* Remove underline from links */
+	color: #0057b8; 	  		    /* Text color */
 	font-size: 1.2em;
 	font-weight: bold;
   }
@@ -77,11 +77,11 @@ h2 {
   .card img:hover {
 	transform: scale(2.5);
   }
-/*This is the block that wraps all the picture cards.*/
-  .photos {
+
+  .photos { 						/*This is the block that wraps all the picture cards.*/
 	display: flex;
-	justify-content: center;   /* Center the items horizontally */
-	flex-wrap: wrap; 		  /* Allow items to wrap to the next line */
+	justify-content: center;    	/* Center the items horizontally */
+	flex-wrap: wrap; 		    	/* Allow items to wrap to the next line */
   }
   
   #like {
@@ -137,12 +137,11 @@ h2 {
   }
 
 
-
   #spa table {
-	border-collapse: collapse;  /* Cell borders for a cleaner look */
+	border-collapse: collapse;  			/* Cell borders for a cleaner look */
 	width: 100%;
 	background-color: white;
-	border-radius: 10px; 		/* Rounds the corners of the table */
+	border-radius: 10px; 					/* Rounds the corners of the table */
 	overflow: hidden;
 	font-family: 'Segoe UI', sans-serif;
   }
@@ -163,7 +162,6 @@ h2 {
 	background-color: gainsboro;
   }
   
-
   
   form label {
 	display: block;             
