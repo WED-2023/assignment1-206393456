@@ -12,8 +12,9 @@ It presents the personal story, professional journey, and public contributions o
 ---
 ## 👨‍🎓 Author
 
-Built by: [Maor Nezer]  
-ID: 206393456 
+Built by: Maor Nezer
+ID: 206393456
+
 ---
 
 ## 🌐 View the website here  
