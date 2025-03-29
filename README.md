@@ -11,7 +11,7 @@ It presents the personal story, professional journey, and public contributions o
 
 ---
 
-🌐 **View the website here**:  
+## 🌐 View the website here  
 👉 [Miriam Adelson – Personal Website](https://wed-2023.github.io/assignment1-206393456/)
 
 ---
